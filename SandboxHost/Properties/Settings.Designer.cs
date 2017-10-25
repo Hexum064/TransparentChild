@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WpfApplication2.Properties
+namespace SandboxHost.Properties
 {
 
 

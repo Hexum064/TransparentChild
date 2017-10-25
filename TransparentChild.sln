@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication2", "WpfApplication2\WpfApplication2.csproj", "{60FE10E1-AB84-4D98-9A16-067D89281D63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxClient", "SandboxClient\SandboxClient.csproj", "{7B1C4E66-9B59-4148-81A7-AD290C3215B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxHost", "SandboxHost\SandboxHost.csproj", "{4C344E80-5606-4A61-8AE9-FAA28297465E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60FE10E1-AB84-4D98-9A16-067D89281D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60FE10E1-AB84-4D98-9A16-067D89281D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60FE10E1-AB84-4D98-9A16-067D89281D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60FE10E1-AB84-4D98-9A16-067D89281D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1C4E66-9B59-4148-81A7-AD290C3215B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1C4E66-9B59-4148-81A7-AD290C3215B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1C4E66-9B59-4148-81A7-AD290C3215B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1C4E66-9B59-4148-81A7-AD290C3215B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C344E80-5606-4A61-8AE9-FAA28297465E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C344E80-5606-4A61-8AE9-FAA28297465E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C344E80-5606-4A61-8AE9-FAA28297465E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C344E80-5606-4A61-8AE9-FAA28297465E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

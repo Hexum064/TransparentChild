@@ -1,0 +1,44 @@
+﻿<Window
+    x:Class="SandboxHost.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SandboxHost"
+    mc:Ignorable="d"
+    Title="MainWindow"
+    Height="350"
+    Width="525"
+    Background="Aquamarine">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+            CornerRadius="0"
+            ResizeBorderThickness="3"
+            GlassFrameThickness="3"
+            CaptionHeight="20" />
+    </WindowChrome.WindowChrome>
+    <Grid x:Name="ContentGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Button
+                Grid.Row="0"
+                Content="Start"
+                Click="Button_Click"
+                Width="50"
+                Height="20" />
+
+
+        </Grid>
+
+        <Border Grid.Row="0" x:Name="ContentBorder" />
+    </Grid>
+</Window>
