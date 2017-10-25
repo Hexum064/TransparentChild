@@ -592,7 +592,7 @@ namespace SandboxHost
                 { }
 
                 lVal = GetWindowLong(proc.MainWindowHandle, (int)WindowLongFlags.GWL_STYLE);
-                lExVal = GetWindowLong(proc.MainWindowHandle, (int)WindowLongFlags.GWL_EXSTYLE);
+                //lExVal = GetWindowLong(proc.MainWindowHandle, (int)WindowLongFlags.GWL_EXSTYLE);
 
                 Debug.WriteLine(GetLongValues(lVal));
 
@@ -602,7 +602,7 @@ namespace SandboxHost
                 lVal = WS_CHILD | WS_VISIBLE;
                 Debug.WriteLine(GetLongValues(lVal));
 
-                lExVal |= WS_EX_LAYERED;
+                //lExVal |= WS_EX_LAYERED;
 
                 SetWindowLongW(proc.MainWindowHandle, (int)WindowLongFlags.GWL_STYLE, new IntPtr(lVal));
                 //SetWindowLongW(proc.MainWindowHandle, GWL_EXSTYLE, new IntPtr(lExVal));
